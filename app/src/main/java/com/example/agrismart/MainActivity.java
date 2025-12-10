@@ -13,11 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Link Java with XML components
+        // 
         TextView textView = findViewById(R.id.textView);
         Button button = findViewById(R.id.button);
 
-        // What happens when button is clicked
+        //
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
